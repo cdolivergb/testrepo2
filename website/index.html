@@ -15,8 +15,8 @@
             <ul>
                 <li><a href="#features" data-i18n="nav_features">Features</a></li>
                 <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
-                <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
-                <li><a href="#login" data-i18n="nav_login">Login</a></li>
+                <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                <li><a href="login.html" data-i18n="nav_login">Login</a></li>
             </ul>
         </nav>
         <select id="lang-select">
@@ -32,34 +32,23 @@
     </section>
 
     <section id="features" class="features">
-        <div class="feature">
+        <a href="feature-free-analysis.html" class="feature">
             <i data-feather="download"></i>
             <h3 data-i18n="feature_free_title">Free Analysis</h3>
             <p data-i18n="feature_free_desc">Download our tool, analyze your system locally and view compliance results on your dashboard.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a href="feature-automated-remediation.html" class="feature">
             <i data-feather="settings"></i>
             <h3 data-i18n="feature_auto_title">Automated Remediation</h3>
             <p data-i18n="feature_auto_desc">Use our AI-driven service to automatically fix custom objects and pay only for successful fixes.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a href="feature-global-multilingual.html" class="feature">
             <i data-feather="globe"></i>
             <h3 data-i18n="feature_global_title">Global & Multilingual</h3>
             <p data-i18n="feature_global_desc">Serve your teams worldwide with localized interfaces and documentation.</p>
-        </div>
+        </a>
     </section>
 
-    <section id="login" class="login">
-        <h2 data-i18n="login_title">Login</h2>
-        <form>
-            <label for="username" data-i18n="login_user">Username</label>
-            <input type="text" id="username" required>
-            <label for="password" data-i18n="login_pass">Password</label>
-            <input type="password" id="password" required>
-            <button type="submit" data-i18n="login_button">Sign In</button>
-        </form>
-        <p class="note" data-i18n="login_note">Demo login form (no backend).</p>
-    </section>
 
     <section id="faq" class="faq">
         <h2 data-i18n="faq_title">FAQ</h2>
@@ -77,16 +66,6 @@
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <h2 data-i18n="contact_title">Contact Us</h2>
-        <form>
-            <label for="email" data-i18n="contact_email">Email</label>
-            <input type="email" id="email" required>
-            <label for="message" data-i18n="contact_message">Message</label>
-            <textarea id="message" rows="5" required></textarea>
-            <button type="submit" data-i18n="contact_send">Send</button>
-        </form>
-    </section>
 
     <footer>
         <p>&copy; <span id="year"></span> Core Edge</p>

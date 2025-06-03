@@ -71,6 +71,12 @@ header a {
     margin: auto;
 }
 
+.feature-detail {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
 .login form, .contact form {
     display: flex;
     flex-direction: column;
