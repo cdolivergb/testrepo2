@@ -7,6 +7,7 @@ The site provides:
 
 - Overview of free system analysis and paid remediation.
 - Login area (front-end only) and multilingual support (English, German, Spanish).
+- Demo dashboard with placeholder metrics accessible after login.
 - FAQ and contact form.
 
 Open-source Feather icons are used under the MIT license.
